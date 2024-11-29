@@ -1,0 +1,167 @@
+*{
+
+}
+
+
+body {
+    background:linear-gradient(black,rgb(95, 95, 95));
+    height: auto;
+    margin: none; 
+    text-align: center;
+}
+
+div{ background-color: #181818; 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    
+    width: 100%;
+    border-color: #181818;
+    padding: 0px;
+    transition: border-width 2 ease ;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 80px;
+      
+}
+
+p{ 
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+h1{ padding-top: 30px;
+    text-align: center;
+    color: #f0ec2a;
+}
+
+
+h2{  
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #f0ec2a;
+}
+
+h3{
+    
+    color: #f0ec2a;
+}
+.divback1{
+    background-image: url(images/pexels-lee-campbell-18167-115655.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    
+
+}
+
+.div3 {
+    text-align: center;
+}
+
+.div7 h1{
+    color: yellow;
+    padding-top: 0px;
+    background-color: rgba(255,255,255,0.0);
+    
+ }
+    
+
+ .div7{
+    padding-top: 0px;
+    background-color: rgba(0,0,0,0.7);
+    
+
+ }
+.divimg{
+    background-color: rgba(0,0,0,0.0);
+}
+.div7 img { 
+    
+    
+    display: inline-block;
+    margin: 30px;
+    padding-top: 0px;
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    transition: padding 0s;
+    opacity: 0.5;
+    z-index: 1;
+    transition: .5s ;
+    
+    
+}
+    
+img:hover{ 
+    opacity: 1;
+    position: relative;
+    transform: scale(1.6);
+    
+    
+    
+}
+.div7_1,.div7{display: flex; display: inline-table;}
+
+.divsup{
+    margin-left: 0px;
+    margin-right: 0px;
+
+    margin-top: 100px;
+}
+.videocontainer{
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
+
+li,ul{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    list-style-type: none;
+}
+
+
+button{
+    background-color: #333333;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px ;
+    border: none;
+    width: 150px;
+    align-items: center;
+    margin: 20px;
+}
+button:hover{
+    background-color: #000000;
+    color: #f0ec2a;
+}
+
+.albaugh_brasil_logo, .arcelormittal_logo{
+    width: 100px;
+}
+.arcelormittal_logo:hover{
+    transform: scale(1.0);
+}
+.albaugh_brasil_logo:hover{
+    transform: scale(1.0);
+}
+
+.div4,.div5,.div6 div{
+    background-color: transparent;
+}
+.div6{
+    background-color: transparent;
+}
